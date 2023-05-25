@@ -1,0 +1,36 @@
+{
+  "name": "trendsetterscustoms",
+  "version": "1.0.0",
+  "description": "Website and App for Trendsetters Customs in Florida",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f2hodge/trendsettersCustoms.git"
+  },
+  "keywords": [
+    "website",
+    "custom",
+    "vehicle",
+    "powder",
+    "coating"
+  ],
+  "author": "SiteHound.us",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f2hodge/trendsettersCustoms/issues"
+  },
+  "homepage": "https://github.com/f2hodge/trendsettersCustoms#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
