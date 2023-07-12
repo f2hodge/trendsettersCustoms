@@ -18,6 +18,20 @@ label{
     padding-top: 5px
 }
 
+/* Quote page */
+.input-group {
+    width: 100%;
+    align-items: start;
+    /* mb-3 style */
+    form {
+        width: 100%;
+    }
+}
+
+img {
+    padding-left: 40px;
+}
+
 /* Mapbox CSS to make it display */
 #map {
     width: 100%;
