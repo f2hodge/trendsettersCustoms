@@ -5,6 +5,33 @@ body::before {
     height: 60px;
 }
 
+/*Borders of fields for validation and indication*/
+input:invalid{
+    box-shadow: 0 0 2px .5px red;
+}
+textarea:invalid{
+    box-shadow: 0 0 2px .5px red;
+}
+/*Spacing around fields this is in place of <br>*/
+label{
+    display: block; 
+    padding-top: 5px
+}
+
+/* Quote page */
+.input-group {
+    width: 100%;
+    align-items: start;
+    /* mb-3 style */
+    form {
+        width: 100%;
+    }
+}
+
+img {
+    padding-left: 40px;
+}
+
 /* Mapbox CSS to make it display */
 #map {
     width: 100%;
