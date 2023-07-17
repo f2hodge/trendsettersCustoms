@@ -81,7 +81,7 @@
         </div>
     </section>
 
-    <!-- Newsletter Signup -->
+    <!-- Newsletter Signup --> <!-- Getting rid of for now
     <section class="bg-primary text-light p-5">
         <div class="container">
             <div class="d-md-flex justify-content-between align-items-center">
@@ -94,7 +94,7 @@
 
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!-- Boxes -->
     <section class="p-5">
@@ -484,7 +484,7 @@
     <script>
         function sendEmail() {
             Email.send({
-                Host: "smtp.gmail.com",
+                Host: "smtp.elasticemail.com",
                 Username: "sitehound.us@gmail.com",
                 Password: "MMA4career$$",
                 To: 'f2hodge@gmail.com',
@@ -492,7 +492,7 @@
                 Subject: "New Quote Request",
                 Body: "And this is the body"
             }).then(
-                message => console.log(`message here`)
+                message => console.log(message)
             );
         }
     </script>
